@@ -89,7 +89,7 @@ def criar_conta(agencia, numero_conta, usuarios):
         print("\n=== Conta criada com sucesso! ===")
         return {"agencia": agencia, "numero_conta": numero_conta, "usuario": usuario}
 
-    print("\n@@@ Usuário não encontrado, fluxo de criação de conta encerrado! @@@")
+    print("\n@@@ Usuário não encontrado, criação de conta encerrada! @@@")
 
 
 def listar_contas(contas):
@@ -154,7 +154,7 @@ def main():
             break
 
         else:
-            print("Operação inválida, por favor selecione novamente a operação desejada.")
+            print("Erro! Por favor selecione novamente a operação desejada.")
 
 
 main()
